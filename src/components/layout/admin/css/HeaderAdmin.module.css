@@ -1,0 +1,31 @@
+.mainContent {
+  background-color: #f3c5f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.titleLogo {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28.9231px;
+  line-height: 36px;
+}
+
+.header_items {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 2rem;
+}

@@ -1,0 +1,35 @@
+.videoPlayer {
+  display: flex;
+  justify-content: center;
+}
+.textName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+}
+.mainContentCard {
+  margin-top: 2rem;
+}
+.boxItems {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.containerButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.containerButtons label:hover {
+  cursor: pointer;
+}

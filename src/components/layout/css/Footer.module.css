@@ -1,0 +1,62 @@
+.mainContentFooter {
+  margin: 2rem 6rem;
+}
+.footerUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.footerDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+.btnFooter {
+  height: 40px;
+  background: #1b2124;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.29);
+  border-radius: 4px;
+  color: white;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.lineFooter {
+  height: 1px;
+  background-color: #000000;
+  padding: 0 50px;
+}
+
+.titleFooter {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28.9231px;
+  line-height: 36px;
+}
+.copyRight {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.socialFooter {
+  display: flex;
+  flex-direction: row;
+}
+.socialFooter > div {
+  margin-right: 2rem;
+}
+
+.modalLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

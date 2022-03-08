@@ -1,0 +1,58 @@
+.mainContent {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.mainFilter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.containerText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+}
+.boxRenta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5px;
+}
+.titleRenta {
+  display: flex;
+  flex-direction: row;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  width: 48%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+.textName {
+  /* margin-top: 2px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.textState {
+  margin-right: 3rem;
+}
+.textSection {
+  margin-left: 2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+.videoContainer {
+  margin-left: 2rem;
+}

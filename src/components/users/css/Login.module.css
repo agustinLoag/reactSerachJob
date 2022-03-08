@@ -1,0 +1,9 @@
+.containerLogin {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d2eaff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 400px;
+}

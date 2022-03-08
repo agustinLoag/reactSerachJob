@@ -1,0 +1,48 @@
+.mainContentFooter {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.footerUp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.footerDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 15px;
+}
+
+.lineFooter {
+  height: 1px;
+  background-color: #000000;
+  padding: 0 50px;
+}
+
+.titleFooter {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28.9231px;
+  line-height: 36px;
+}
+.copyRight {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.socialFooter {
+  display: flex;
+  flex-direction: row;
+}
+.socialFooter > div {
+  margin-right: 2rem;
+}

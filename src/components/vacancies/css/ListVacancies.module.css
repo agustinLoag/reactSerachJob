@@ -1,0 +1,93 @@
+.mainContent {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.mainContentList {
+  margin-top: 2rem;
+}
+.paperList {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  justify-content: space-between;
+}
+.dropdown {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 11rem;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+}
+.dropdownSelect {
+  padding: 1rem;
+  background: #e5e5e5;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  appearance: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.titleItems {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.iconArrow {
+  margin-left: -2rem;
+}
+.searchInput {
+  margin-left: 2rem;
+}
+.infoVacancy {
+  display: flex;
+  align-items: center;
+  padding: 0 5rem;
+}
+.location {
+  padding-left: 5px;
+}
+.items {
+  padding-right: 2rem;
+}
+.disable {
+  opacity: 0.2;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 50%;
+}
+.iconSearch {
+  height: 3rem;
+  width: 2rem;
+  color: #000000;
+  padding-left: 1rem;
+}
+.box > input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 1rem;
+  border-radius: 8px;
+}

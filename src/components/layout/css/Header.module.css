@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin: 0 6rem;
+}
+.links {
+  display: flex;
+  flex: 50%;
+  align-content: center;
+  justify-content: center;
+}
+.itemLink {
+  margin-left: 5rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+.titleLogo {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28.9231px;
+  line-height: 36px;
+}

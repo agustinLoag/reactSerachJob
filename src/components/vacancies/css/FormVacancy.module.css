@@ -1,0 +1,115 @@
+.mainContentForm {
+  padding: 2rem 4rem;
+}
+.formVacancy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputsForm {
+  margin: 1rem 1rem;
+}
+.btnAddQuestion {
+  background-color: #d2eaff;
+  border-radius: 4px;
+  margin: 2rem 0;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hrLine {
+  width: 90%;
+}
+
+.inputGroup {
+  width: 90%;
+  height: auto;
+  position: relative;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  margin: 2rem;
+}
+
+.inputGroup:hover,
+.inputGroup:focus-within {
+  border-color: #1417c9;
+}
+.inputGroup input {
+  padding: 16px 14px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  height: auto;
+  color: #644646;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Mulish";
+}
+.inputGroup input:focus {
+  color: grey;
+}
+.inputGroup label {
+  position: absolute;
+  background-color: transparent;
+  padding: 0px 8px;
+  line-height: 24px;
+  top: -12px;
+  left: 16px;
+  bottom: auto;
+  color: #777777;
+  background-color: white;
+  cursor: text;
+  font-family: "Mulish";
+}
+
+.inputGroup select {
+  padding: 16px 14px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Mulish";
+}
+.inputGroup select:focus {
+  color: grey;
+}
+.inputGroup label {
+  position: absolute;
+  background-color: transparent;
+  padding: 0px 8px;
+  line-height: 24px;
+  top: -12px;
+  left: 16px;
+  bottom: auto;
+  color: #777777;
+  background-color: white;
+  cursor: text;
+  font-family: "Mulish";
+}
+.inputGroup:hover label {
+  color: #000000;
+}
+.selectMain {
+  appearance: none;
+}
+.iconSelect {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  margin-right: 1.5rem;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.boxButton {
+  display: flex;
+  justify-content: center;
+}
+.titleHead {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
